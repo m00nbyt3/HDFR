@@ -9,12 +9,12 @@ async function main()
 	try
 	{
 		await sleep(10);
-		window.location.href = document.getElementsByClassName("btn btn-lg btn-success d-block")[0].href;
+		window.location.href = document.getElementsByClassName("btn btn-lg btn-success d-block")[1].href;
 	}
 	catch
 	{
 		await sleep(1000);
-		window.location.href = document.getElementsByClassName("btn btn-lg btn-success d-block")[0].href;
+		window.location.href = document.getElementsByClassName("btn btn-lg btn-success d-block")[1].href;
 	}
 	
 }
